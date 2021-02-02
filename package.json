@@ -34,14 +34,8 @@
     "dist/bundles"
   ],
   "dependencies": {
-    "callbag-combine": "^1.2.0",
-    "callbag-map": "^1.1.0",
-    "callbag-merge": "^3.2.2",
-    "callbag-of": "^2.0.1",
     "callbag-pipe": "^1.2.0",
-    "callbag-subject": "^2.1.0",
-    "rxjs": "^6.6.3",
-    "use-callbag": "^1.0.0"
+    "rxjs": "^6.6.3"
   },
   "peerDependencies": {
     "react": "^17.0.1"
