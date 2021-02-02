@@ -81,14 +81,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loreanvictor/react-callbag-streams.git"
+    "url": "git+https://github.com/must/react-rxjs-streams.git"
   },
-  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "authors": [
+    "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+    "Mustapha Ben Chaaben <mustapha@benchaaben.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loreanvictor/react-callbag-streams/issues"
+    "url": "https://github.com/must/react-rxjs-streams/issues"
   },
-  "homepage": "https://github.com/loreanvictor/react-callbag-streams#readme",
+  "homepage": "https://github.com/must/react-rxjs-streams#readme",
   "nyc": {
     "extends": "nyc-config-tsx",
     "all": true,
