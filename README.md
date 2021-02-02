@@ -4,26 +4,26 @@
 
 <br>
 
-# React Callbag Streams
+# React RxJS Streams
 
-[![tests](https://img.shields.io/github/workflow/status/loreanvictor/react-callbag-streams/Test%20and%20Report%20Coverage?label=tests&logo=mocha&logoColor=green&style=flat-square)](https://github.com/loreanvictor/react-callbag-streams/actions?query=workflow%3A%22Test+and+Report+Coverage%22)
-[![coverage](https://img.shields.io/codecov/c/github/loreanvictor/react-callbag-streams?logo=codecov&style=flat-square)](https://codecov.io/gh/loreanvictor/react-callbag-streams)
-[![version](https://img.shields.io/npm/v/react-callbag-streams?logo=npm&style=flat-square)](https://www.npmjs.com/package/react-callbag-streams)
+[![tests](https://img.shields.io/github/workflow/status/must/react-rxjs-streams/Test%20and%20Report%20Coverage?label=tests&logo=mocha&logoColor=green&style=flat-square)](https://github.com/loreanvictor/react-callbag-streams/actions?query=workflow%3A%22Test+and+Report+Coverage%22)
+[![coverage](https://img.shields.io/codecov/c/github/must/react-rxjs-streams?logo=codecov&style=flat-square)](https://codecov.io/gh/must/react-rxjs-streams)
+[![version](https://img.shields.io/npm/v/react-rxjs-streams?logo=npm&style=flat-square)](https://www.npmjs.com/package/react-rxjs-streams)
 
 
 </div>
 
 <br>
 
-Use [callbag operators](https://loreanvictor.github.io/callbag-common/) on normal JS variables in React components. Easily debounce, flatten,
+Use [rxjs operators](https://rxjs-dev.firebaseapp.com/guide/operators) on normal JS variables in React components. Easily debounce, flatten,
 throttle, maintain order of async operations (like data fetching), etc.
 
 ```bash
-npm i react-callbag-streams
+npm i react-rxjs-streams
 ```
 
 ```tsx
-import { useStream } from 'react-callbag-streams'
+import { useStream } from 'react-rxjs-streams'
 import { debounce, filter, flatten, map, fromPromise } from 'callbag-common'
 
 
@@ -49,7 +49,7 @@ function App() {
   )
 }
 ```
-[ ► Playground ](https://stackblitz.com/edit/react-callbag-streams-demo?file=index.tsx)
+[ ► Playground](https://stackblitz.com/edit/react-rxjs-streams-demo?file=index.tsx)
 
 <br><br>
 
